@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Credit card validator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Estilo Css -->
+    <link rel="stylesheet" href="css/style_validate.css">
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+      <!-- Script -->
+
+
+
+</head>
+<body id='body' class="light">
+
+
+  <header class="header">
+    <nav id="nav" class="Nav">
+      <ul>
+        <li>  <div class="menu">
+          <a href="#inicio">Home</a>
+          <a href="#about">About</a>
+          <a href="#project">Project</a>
+        </div></li>
+      </ul>
+  </nav>
+</header>
+
+
+
+
+<section class="photo" id="inicio">
+
+
+  <div class="photo-text">
+  <h4>Credit card validator</h4>
+  <img  class="logo" src="IMAGES/logo.png">
+  </div>
+  <div class="overlay"></div>
+</section>
+
+
+<section class="content" id="about">
+  <div class="grand-title" >
+    <div class="text">
+      <div class="inner-text">
+      <div class="text-box">
+    <h4>
+      What we do?
+    </h4>
+       </div>
+
+        <p >
+          In a world where cyber threats are inevitable, as a service provider
+          for smart managed security, we focus on detecting fake credit cards.
+          We anticipate the most sophisticated and frequent attacks. Using a scientifically proven process.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="inner-content">
+    <div class="boxy">
+
+      <div class="pasos">
+
+        <div class="item-0">
+          <h1 class="h1_pasos">
+            Step 1
+          </h1>
+          <p>
+            Identify your card number, it should has sixteen numbers </p>
+          <img class="image_paso1" src="IMAGES/paso1.png">
+
+        </div>-
+
+        <div class="item-1">
+          <h1 class="h1_pasos">
+              Step 2
+          </h1>
+          <p>Fill out the form</p>
+          <img class="image_paso2" src="IMAGES/paso2.png">
+
+        </div>
+
+        <div class="item-2">
+          <h1 class="h1_pasos">
+           step 3
+          </h1>
+          <p>
+            And ready! you already have your form filled out now valid! </p>
+          <img class="image_paso3" src="IMAGES/paso3.png">
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <section class="creditCard" id="project">
+    <h4>Project</h4>
+    <div class="creditCard-container">
+      <div class="container">
+        <div class="card" id="card">
+          <div class="card__info">
+            <div class="card__chip"></div>
+            <div class="number">
+                <input  class="num" type="text"  maxlength="4" inputmode='numeric' pattern="\d+">
+                <input  class="num"  type="text" maxlength="4" inputmode='numeric' pattern="\d+">
+                <input   class="num"  type="text" maxlength="4" inputmode='numeric' pattern="\d+">
+                <input   class="num"  type="text" maxlength="4" inputmode='numeric' pattern="\d+">
+             </div>
+
+
+        
+           <span class="card__date">
+        <small>GOOD</small>
+        <small>THRU</small>
+
+               07/22</span>
+    <span class="card__name">CARDHOLDER NAME</span>
+          </div>
+       </div>
+            <button  class="btn" id="btn">NEW CARD</button>
+          </div>
+          </div>
+           </section>
+
+
+
+      </section>
+
+
+<section class="answer" id="result">
+  <div class="card_result">
+
+    <h3 id="text_result" class="text_result">
+
+
+    </h3>
+    <button  class="btn" id="btn_return">Try it</button>
+  </div>
+
+</section>
+
+
+</body>
+<script  src="js/validate.js"></script>
+
+</html>
